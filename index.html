@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Three</title>
+    <!-- Tailwind + daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Font-awesome cdn  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- google font cdn -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<style>
+    .font-manrop{font-family: "Manrope", sans-serif;}
+</style>
 </head>
-<body>
-    
+<body class="font-manrop">
+    <header>
+<nav class="w-11/12 mx-auto">
+    <div class="navbar bg-base-100">
+        <div class="navbar-start flex gap-3">
+         <button><i class="fa-solid fa-arrow-right bg-lime-400 w-5 h-5 rounded-full -rotate-45 text-sm my-0.5 text-center"></i></button>
+          <a href="#" class="text-xl font-extrabold">Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex opacity-80">
+          <ul class="menu menu-horizontal px-1">
+              <li class="hover:font-semibold"><a>Home</a></li>
+              <li class="hover:font-semibold"><a>Services</a></li>
+              <li class="hover:font-semibold"><a>Portfolio</a></li>
+              <li class="hover:font-semibold"><a>Blogs</a></li>
+              <li class="hover:font-semibold"><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          
+          
+          <div class="flex gap-4">
+              <button class="bg-[#E9E9E9] w-9 h-9 rounded-full"><i class="fa-solid fa-magnifying-glass"></i></button>
+              <button class="bg-[#E9E9E9] w-9 h-9 rounded-full"><i class="fa-solid fa-cart-shopping"></i></button>
+              <button class="flex justify-center gap-2 w-40 h-8 px-3 py-1 text-center rounded-2xl font-medium bg-lime-500"><span>Book Consult</span><i class="fa-solid fa-arrow-right text-white bg-black w-5 h-5 rounded-full -rotate-45 text-sm my-0.5"></i></button>
+          </div>
+          <div class="dropdown opacity-80">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 gap-4">
+                <li><a class="hover:font-semibold">Home</a></li>
+                <li class="hover:font-semibold"><a>Services</a></li>
+                <li class="hover:font-semibold"><a>Portfolio</a></li>
+                <li class="hover:font-semibold"><a>Blogs</a></li>
+                <li class="hover:font-semibold"><a>Contact Us</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+</nav>
+    </header>
 </body>
 </html>
