@@ -280,13 +280,30 @@
         </section>
 
         <!-- let's Discuss section -->
-         <section>
+         <section class="bg-[url('./assets/bg.jpg')] py-16">
           <div class="text-center">
             <button class="bg-lime-200 w-32 h-8 rounded-2xl shadow-sm text-xs"><i class="fa-solid fa-arrow-right text-xs text-center text-black opacity-80"></i> Let's Connect 
             </button>
             <h2 class="text-3xl font-bold py-2">Let's Discuss Next Project</h2>
-            <p class="py-3 text-xs opacity-70 overflow-hidden"></p>
+            <p class="py-3 text-xs opacity-70 overflow-hidden">The course will be delivered through lectures and seminars, with tutorial section and class presentations.</p>
            </div>
+           <div class="grid grid-cols-1 md:grid-cols-2 w-11/12 mx-auto gap-10 py-16">
+            <label class="input flex items-center gap-2">
+              <input type="text" class="grow" placeholder="First Name*" />
+            </label>
+            <label class="input flex items-center gap-2">
+              <input type="text" class="grow" placeholder="Last Name*" />
+            </label>
+            <label class="input flex gap-2">
+              <input type="text" class="grow" placeholder="Phone Number*" />
+            </label>
+            <label class="input flex items-center gap-2">
+              <input type="text" class="grow" placeholder="Email Number*" />
+            </label>
+            <textarea class="textarea col-span-2" placeholder="Write your message here"></textarea>
+            <button class="w-full h-8 col-span-2 rounded-xl text-center font-medium text-sm bg-lime-400">Send Mail <i class="fa-solid fa-arrow-right text-sm text-center text-white bg-black w-5 h-5 rounded-full -rotate-45 my-0.5 "></i></button>
+           </div>
+           
          </section>
     </main>
 </body>
